@@ -8,48 +8,48 @@
 
 function makeToolbox() {
   return `
-	<style>
-        #rtb-container * {
-            box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            -webkit-box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+		<style>
+			#rtb-container * {
+				box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+			}
 
-        #rtb-container {
-            width: 140px;
-            border: solid 1px #333333;
-            padding-left: 0.5em;
-            padding-right: 0.5em;
-            position: fixed;
-            right: 1px;
-            top: 20%;
-            background-color: rgba(10, 10, 10, 0.5);
-						z-index: 1000;
-        }
+			#rtb-container {
+				width: 140px;
+				border: solid 1px #333333;
+				padding-left: 0.5em;
+				padding-right: 0.5em;
+				position: fixed;
+				right: 1px;
+				top: 20%;
+				background-color: rgba(10, 10, 10, 0.5);
+				z-index: 1000;
+			}
 
-        #rtb-container li {
-            list-style: none;
-            margin-top: 0.5em;
-            margin-bottom: 0.5em;
-        }
+			#rtb-container li {
+				list-style: none;
+				margin-top: 0.5em;
+				margin-bottom: 0.5em;
+			}
 
-        #rtb-container button {
-            width: 100%;
-            padding-top: 0.25em;
-            padding-bottom: 0.25em;
-        }
-    </style>
+			#rtb-container button {
+				width: 100%;
+				padding-top: 0.25em;
+				padding-bottom: 0.25em;
+			}
+		</style>
     <div id='rtb-container'>
-        <div id="rtb-actions">
-            <ul>
-                <li><button id="rtb-copy-short-row">Copy Short Row</button></li>
-                <li><button id="rtb-copy-long-row">Copy Long Row</button></li>
-								<li><button id="rtb-copy-scoring-details">Get Scoring Details</button></li>
-								<li><button id="rtb-log-all-details">Log All Details</button></li>
-            </ul>
-        </div>
+			<div id="rtb-actions">
+				<ul>
+					<li><button id="rtb-copy-short-row">Copy Short Row</button></li>
+					<li><button id="rtb-copy-long-row">Copy Long Row</button></li>
+					<li><button id="rtb-copy-scoring-details">Get Scoring Details</button></li>
+					<li><button id="rtb-log-all-details">Log All Details</button></li>
+				</ul>
+			</div>
     </div>
 `
 }
