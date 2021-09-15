@@ -86,7 +86,7 @@ function parseKeyDetailsList() {
 }
 
 function parseAdditionalDetails() {
-  const text = document.getElementById('propertyDetails-collapsible').innerText
+  const text = document.getElementById('property-details-scroll').innerText
   let additionalDetails = {}
   let lines = text.split("\n")
   for (const line of lines) {
